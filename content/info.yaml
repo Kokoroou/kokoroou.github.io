@@ -1,0 +1,172 @@
+skills:
+  - name: "Python"
+    group: "Programming"
+    level: "Intermediate"
+    icon: "./../content/icons/python.ico"
+  - name: "Shell Scripting"
+    group: "Programming"
+    level: "Intermediate"
+  - name: "YAML"
+    group: "Programming"
+    level: "Intermediate"
+  - name: "FastAPI"
+    group: "Programming"
+    level: "Intermediate"
+  - name: "Pytorch"
+    group: "Programming"
+    level: "Intermediate"
+  - name: "Scikit-learn"
+    group: "Programming"
+    level: "Intermediate"
+  - name: "Docker"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "Kubernetes"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "Helm"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "Jenkins"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "Git"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "MinIO"
+    group: "DevOps"
+    level: "Intermediate"
+  - name: "Problem Solving"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Analytical Thinking"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Communication"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Teamwork"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Time Management"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Critical Thinking"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Patience"
+    group: "Soft Skills"
+    level: "Intermediate"
+  - name: "Adaptability"
+    group: "Soft Skills"
+    level: "Intermediate"
+
+projects:
+  - name: "MISA eKYC"
+    description: "A service that helps to verify the identity of customers."
+    technologies:
+      - "Python"
+      - "FastAPI"
+      - "Pytorch"
+      - "ONNX"
+      - "PaddleOCR"
+      - "Ultralytics YOLOv8"
+    link: ""
+  - name: "MISA Captcha Solver"
+    description: "A service that helps to solve CAPTCHAs from hundreds of websites."
+    technologies:
+      - "Python"
+      - "FastAPI"
+      - "Pytorch"
+      - "ONNX"
+      - "PaddleOCR"
+      - "Ultralytics YOLOv8"
+    link: ""
+  - name: "MISA OCR"
+    description: "A service that helps to extract text to meaningful fields from images or files."
+    technologies:
+      - "Python"
+      - "FastAPI"
+      - "Pytorch"
+      - "ONNX"
+      - "PaddleOCR"
+      - "Ultralytics YOLOv8"
+    link: ""
+
+education:
+  - name: "Lam Son Gifted High School"
+    degree: "High School"
+    field: "Physics"
+    start_date: "2016"
+    end_date: "2019"
+    location: "Thanh Hoa, Vietnam"
+  - name: "Hanoi University of Science and Technology"
+    degree: "Bachelor of Computer Science"
+    field: "Computer Science"
+    start_date: "2019"
+    end_date: "2023"
+    location: "Hanoi, Vietnam"
+
+certifications:
+  - name:
+    organization:
+    issue_date:
+    expiration_date:
+    credential_id:
+    credential_url:
+
+outstanding_products:
+  repositories:
+    - name: ""
+      description: ""
+      link: ""
+
+  contributions:
+    - name: ""
+      description: ""
+      link: ""
+
+  blogs:
+    - name: ""
+      description: ""
+      link: ""
+
+  videos:
+    - name: ""
+      description: ""
+      link: ""
+
+  podcasts:
+    - name: ""
+      description: ""
+      link: ""
+
+  books:
+    - name: ""
+      description: ""
+      link: ""
+
+contacts:
+  - type: "Email"
+    value: ""
+  - type: "Phone"
+    value: ""
+  - type: "Address"
+    value: ""
+  - type: "Website"
+    value: ""
+  - type: "LinkedIn"
+    value: ""
+  - type: "Twitter"
+    value: ""
+  - type: "GitHub"
+    value: ""
+
+future_orientation: "I am looking forward to working on projects that involve Machine Learning, Deep Learning, Computer Vision, and Natural Language Processing. I am also interested in DevOps and Cloud Computing."
+
+reviews:
+  - name: "Nguyen Van A"
+    position: "Software Engineer"
+    company: "MISA"
+    relationship: "Colleague"
+    review: "He is a talented and hard-working person. He has a good understanding of the technologies he is working with. He is also a good team player and has good communication skills."
