@@ -32,14 +32,14 @@ def main():
         }
         </style>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
 
     st.markdown(
         """
         <img src="https://i.pinimg.com/736x/00/09/61/00096103a6267557769f8266cdc5cd3d.jpg" class="circle-img">
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True,
     )
     st.title("Trương Tuấn Anh")
 
@@ -68,14 +68,18 @@ def main():
         technologies = [f"`{tech}`" for tech in technologies]
         technologies = " ".join(technologies)
 
-        st.write(f"- **{project.get('name', '')}**: {project.get('description', '')}"
-                 f"{technologies}")
+        st.write(
+            f"- **{project.get('name', '')}**: {project.get('description', '')}"
+            f"{technologies}"
+        )
 
     # Học vấn cá nhân
     st.header("Học vấn cá nhân")
     education = info.get("education", [])
     for edu in education:
-        st.write(f"- {edu.get('name', '')}: `{edu.get('start_date', '')} - {edu.get('end_date', '')}`")
+        st.write(
+            f"- {edu.get('name', '')}: `{edu.get('start_date', '')} - {edu.get('end_date', '')}`"
+        )
 
         # Generate tags for each education by its major
         field = edu.get("field", "")
@@ -98,7 +102,9 @@ def main():
 
     st.header("Thông tin liên hệ")
     # Thông tin liên hệ: Email, Số điện thoại, ...
-    contacts = info.get("contacts", )
+    contacts = info.get(
+        "contacts",
+    )
     for contact in contacts:
         if contact.get("value", ""):
             st.write(f"- {contact.get('type', '')}: {contact.get('value', '')}")
