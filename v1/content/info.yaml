@@ -2,7 +2,7 @@ skills:
   - name: "Python"
     group: "Programming"
     level: "Intermediate"
-    icon: "./../content/icons/python.ico"
+    icon: "./content/icons/python.ico"
   - name: "Shell Scripting"
     group: "Programming"
     level: "Intermediate"

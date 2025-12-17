@@ -14,8 +14,7 @@ def main():
     """
 
     current_dir = Path(__file__).parent.resolve()
-    root_dir = current_dir.parent
-    content_dir = root_dir / "content"
+    content_dir = current_dir / "content"
 
     with open(content_dir / "info.yaml", "r") as f:
         info = yaml.safe_load(f)
