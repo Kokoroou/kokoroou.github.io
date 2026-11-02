@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kokoroou.github.io/sitemap.xml
+Sitemap: https://kokoroou.github.io/rpgmaker-assets-viewer/sitemap.xml
