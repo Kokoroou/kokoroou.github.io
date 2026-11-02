@@ -1,5 +1,11 @@
-# Trang GitHub của Kokoroou
+# kokoroou.github.io
 
-## Mục đích
+Root GitHub Pages site for `https://kokoroou.github.io/`. It holds files that only work at the domain root:
 
-- Sử dụng như Résumé/CV cá nhân
+- `index.html` — project hub page; also carries the Yandex Webmaster verification meta tag (Yandex verifies the whole host).
+- `robots.txt` — crawlers only read it at the host root; it points to the sitemaps of the root and of each project site.
+- `sitemap.xml`, `llms.txt` — root sitemap and AI-readable index of projects.
+
+Deployed by `.github/workflows/deploy.yml` (Settings → Pages → Source: **GitHub Actions**).
+
+**Do not set a custom domain on this repository**: GitHub would move every project site (e.g. `/rpgmaker-assets-viewer/`) to that domain as well.

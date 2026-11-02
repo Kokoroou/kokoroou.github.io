@@ -1,0 +1,7 @@
+# Kokoroou
+
+> Personal project hub on GitHub Pages.
+
+## Projects
+
+- [MakerLens — RPG Maker Asset Viewer](https://kokoroou.github.io/rpgmaker-assets-viewer/): free, browser-based viewer and extractor for RPG Maker MV, MZ, XP, VX and VX Ace assets. Runs 100% client-side. Details: [llms.txt](https://kokoroou.github.io/rpgmaker-assets-viewer/llms.txt)
