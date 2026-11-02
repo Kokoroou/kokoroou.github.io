@@ -5,6 +5,7 @@ Root GitHub Pages site for `https://kokoroou.github.io/`. It holds files that on
 - `index.html` — project hub page; also carries the Yandex Webmaster verification meta tag (Yandex verifies the whole host).
 - `robots.txt` — crawlers only read it at the host root; it points to the sitemaps of the root and of each project site.
 - `sitemap.xml`, `llms.txt` — root sitemap and AI-readable index of projects.
+- `naver*.html` — Naver Search Advisor ownership verification file.
 
 Deployed by `.github/workflows/deploy.yml` (Settings → Pages → Source: **GitHub Actions**).
 
