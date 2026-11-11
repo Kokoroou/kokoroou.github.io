@@ -23,12 +23,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Collect site files
-        run: |
-          mkdir _site
-          cp index.html robots.txt sitemap.xml llms.txt naver*.html _site/
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Type-checks, renders the page from src/data, and copies public/ (robots.txt, sitemap.xml, llms.txt, naver*.html).
+      - run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deployment

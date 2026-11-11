@@ -1,6 +1,10 @@
 # Kokoroou
 
-> Personal project hub on GitHub Pages.
+> Personal CV site of Tuấn Anh Trương, a DevOps engineer focused on AI infrastructure (Kubernetes, GPU platforms, LLM serving). Previously an AI engineer.
+
+## Pages
+
+- [CV](https://kokoroou.github.io/): profile, expertise, selected work and experience.
 
 ## Projects
 
